@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio-khushi Tiwari</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <div class="menuToggle"></div>
+        <ul class="nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <!-- <li><a href="#about">About</a></li> -->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section id="home">
+        <div class="content">
+            <h2>Khushi Tiwari</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nemo quis ea sint laboriosam, ut ex ad
+                perspiciatis nulla quo quae quaerat eaque sed alias.</p>
+            <a href="#" class="btn">Resume</a>
+        </div>
+        <img src="" class="pic" alt="">
+    </section>
+<!-- 
+    <section id="about">
+        <div class="conatiner">
+            <div class="imgBox">
+                <img src="" alt="">
+            </div>
+            <div class="text">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum nesciunt, cumque id a dolorum
+                    assumenda libero similique, commodi autem reiciendis nisi ea, explicabo ab unde.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="skills">
+        <div class="secText">
+            <h2>What I Am Great At</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium odio iste minima enim quasi, hic
+                iusto? Earum ipsum inventore totam laboriosam saepe cupiditate atque obcaecati.</p>
+        </div>
+        <div class="content">
+            <div class="serviceBx">
+                <img src="" alt="">
+                <h3>Web Designing</h3>
+            </div>
+
+            <div class="serviceBx">
+                <img src="" alt="">
+                <h3>Web Development</h3>
+            </div>
+
+            <div class="serviceBx">
+                <img src="" alt="">
+                <h3>Android Apps</h3>
+            </div>
+
+            <div class="serviceBx">
+                <img src="" alt="">
+                <h3>Video Editing</h3>
+            </div>
+        </div>
+        <div class="centre">
+            <a href="#" class="btn">Contact</a>
+        </div>
+    </section>
+
+
+    <section id="projects">
+
+        <div class="secText">
+            <h2>My Portfolio</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium odio iste minima enim quasi, hic
+                iusto? Earum ipsum inventore totam laboriosam saepe cupiditate atque obcaecati.</p>
+        </div>
+
+        <div class="content">
+
+            <div class="imgBx">
+                <img src="./assets/yoga.png" alt="">
+            </div>
+            <div class="imgBx">
+                <img src="./assets/meditation.png" alt="">
+            </div>
+            <div class="imgBx">
+                <img src="./assets/aurora.png" alt="">
+            </div>
+            <div class="imgBx">
+                <img src="./assets/exedy.png" alt="">
+            </div>
+            <div class="imgBx">
+                <img src="./assets/memory.png" alt="">
+            </div>
+            <div class="imgBx">
+                <img src="./assets/yoga.png" alt="">
+            </div>
+
+
+        </div>
+        <div class="centre">
+            <a href="#" class="btn">View More</a>
+        </div>
+
+    </section>
+    <section id="contact">
+
+        <div class="secText">
+            <h2>Ways To Conatct Me</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium odio iste minima enim quasi, hic
+                iusto? Earum ipsum inventore totam laboriosam saepe cupiditate atque obcaecati.</p>
+        </div>
+
+        <div class="content">
+            <a href="#">
+                <ion-icon name="mail-outline"></ion-icon>
+                khushitiwari2415@email.com
+            </a>
+            <a href="#">
+                <ion-icon name="call-outline"></ion-icon>
+                +91 9372228738
+            </a>
+            <a href="#">
+                <ion-icon name="logo-github"></ion-icon>
+               Khushi1524
+            </a>
+            <a href="#">
+                <ion-icon name="logo-linkedin"></ion-icon>
+               Khushi Tiwari
+            </a>
+        </div>
+
+        <div class="centre">
+            <p class="copyrights">Copyrights © 2023 <a href="#">khushi Tiwari</a>. All Rights Reserved. </p>
+        </div>
+
+
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script>
+        let list = document.querySelectorAll('.nav li');
+        function active() {
+            list.forEach((i) =>
+                i.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((i) =>
+            i.addEventListener('click', active));
+
+        let menuToggle = document.querySelector('.menuToggle');
+        let header = document.querySelector('header');
+        menuToggle.onclick = function () {
+            header.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
