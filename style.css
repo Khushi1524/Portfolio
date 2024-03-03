@@ -27,7 +27,11 @@ header .logo {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+header .logo span{
+    color: #47a3f7;
 }
 
 header ul {
@@ -112,7 +116,7 @@ header ul li:hover a {
     line-height: 1.6em;
 }
 
-#home .btn {
+.btn {
     position: relative;
     display: inline-block;
     font-size: 1.3em;
@@ -131,7 +135,7 @@ header ul li:hover a {
     margin-top: 10px;
 }
 
-#home .btn:hover{
+ .btn:hover{
     box-shadow: 0 4px 8px 0 #47a2f77e, 0 6px 20px 0 #47a2f78f;
 }
 
@@ -159,6 +163,7 @@ header ul li:hover a {
     color: #fff;
     font-size: 3em;
 }
+
 
 #about .all{
     display: flex;
@@ -221,26 +226,51 @@ header ul li:hover a {
     flex-direction: column;
 }
 
-#skills .outer{
+#skills .all{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-  
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
 }
 
-#skills .outer .inner{
+#skills .all .circle1 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: conic-gradient(#47a3f7 calc(var(--per) * 1%), #ecf5fc95 0);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+#skills .all .circle2{
+    width:110px;
+    height:110px;
+    border-radius:50%;
     background:#222;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
     color: #fff;
 }
+
+#skills .all .circle2:hover{
+    box-shadow: 8px 8px 16px 0px #47a2f7af, 8px 16px 30px 8px #47a2f7a7;
+}
+
+#skills .all .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    min-width: calc(100% / 4);
+    margin-top: 100px;
+}
+
+
+
 
 
 
