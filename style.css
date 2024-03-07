@@ -116,6 +116,12 @@ header ul li:hover a {
     line-height: 1.6em;
 }
 
+#home  img{
+   filter: drop-shadow(8px 15px 15px #47a3f7);
+}
+
+
+
 .btn {
     position: relative;
     display: inline-block;
@@ -139,12 +145,6 @@ header ul li:hover a {
     box-shadow: 0 4px 8px 0 #47a2f77e, 0 6px 20px 0 #47a2f78f;
 }
 
-#home .pic {
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-    max-height: 90vh;
-}
 
 #about {
     position: relative;
