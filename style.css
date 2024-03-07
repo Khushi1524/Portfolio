@@ -30,7 +30,7 @@ header .logo {
     font-size: 1.5em;
 }
 
-header .logo span{
+header .logo span {
     color: #47a3f7;
 }
 
@@ -116,8 +116,8 @@ header ul li:hover a {
     line-height: 1.6em;
 }
 
-#home  img{
-   filter: drop-shadow(8px 15px 15px #47a3f7);
+#home img {
+    filter: drop-shadow(8px 15px 15px #47a3f7);
 }
 
 
@@ -141,7 +141,7 @@ header ul li:hover a {
     margin-top: 10px;
 }
 
- .btn:hover{
+.btn:hover {
     box-shadow: 0 4px 8px 0 #47a2f77e, 0 6px 20px 0 #47a2f78f;
 }
 
@@ -165,7 +165,7 @@ header ul li:hover a {
 }
 
 
-#about .all{
+#about .all {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -173,30 +173,30 @@ header ul li:hover a {
 }
 
 
-#about .all .exp .yr1{
+#about .all .exp .yr1 {
     color: #fff;
     font-size: 1em;
     padding: 20px;
 }
 
-#about .all .exp .yr1 h3{
+#about .all .exp .yr1 h3 {
     font-size: 1.5em;
     color: #47a3f7;
 }
 
-#about .all .info{
+#about .all .info {
     font-size: 1.1em;
     padding: 40px;
     color: #fff;
     border-left: 1px solid;
-    width:900px;
+    width: 900px;
 }
 
-#about .all .info p{
+#about .all .info p {
     padding: 20px;
 }
 
-#about .social{
+#about .social {
     padding: 10px;
 }
 
@@ -204,11 +204,11 @@ header ul li:hover a {
     padding: 6px;
 }
 
-#about .social a img{
+#about .social a img {
     width: 30px;
 }
 
-#about .social a img:hover{
+#about .social a img:hover {
     box-shadow: 0 4px 8px 0 #47a2f77e, 0 6px 20px 0 #47a2f78f;
 }
 
@@ -216,7 +216,7 @@ header ul li:hover a {
 
 /* skills */
 
-#skills  {
+#skills {
     position: relative;
     background: #222;
     min-height: 100vh;
@@ -226,7 +226,7 @@ header ul li:hover a {
     flex-direction: column;
 }
 
-#skills .all{
+#skills .all {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -243,22 +243,22 @@ header ul li:hover a {
 }
 
 
-#skills .all .circle2{
-    width:110px;
-    height:110px;
-    border-radius:50%;
-    background:#222;
+#skills .all .circle2 {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #222;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     color: #fff;
 }
 
-#skills .all .circle2:hover{
+#skills .all .circle2:hover {
     box-shadow: 8px 8px 16px 0px #47a2f7af, 8px 16px 30px 8px #47a2f7a7;
 }
 
-#skills .all .skill{
+#skills .all .skill {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -268,10 +268,6 @@ header ul li:hover a {
     min-width: calc(100% / 4);
     margin-top: 100px;
 }
-
-
-
-
 
 
 
@@ -362,14 +358,14 @@ header ul li:hover a {
     text-align: center;
     min-height: 100vh;
     padding: 120px 100px;
-    
+
 }
 
-#projects .content1{
-   padding: 20px;
+#projects .content1 {
+    padding: 20px;
 }
 
-#projects .imgBx1{
+#projects .imgBx1 {
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -377,23 +373,23 @@ header ul li:hover a {
 }
 
 #projects .imgBx1 .des {
-   width: 700px;
-   padding: 30px;
+    width: 700px;
+    padding: 30px;
 }
 
-#projects .imgBx1 .des h3{
+#projects .imgBx1 .des h3 {
     color: #47a3f7;
     font-size: 1.5em;
     padding: 10px;
 }
 
-#projects .imgBx1 .des h4{
-    color:#aaa;
+#projects .imgBx1 .des h4 {
+    color: #aaa;
     font-size: 1.1em;
     padding: 10px;
 }
 
-#projects .imgBx1 .des .projbtn{
+#projects .imgBx1 .des .projbtn {
     font-size: 1.3em;
     background: rgb(97, 180, 255);
     background: linear-gradient(90deg, rgba(97, 180, 255, 1) 0%, rgba(125, 107, 233, 1) 100%);
@@ -408,7 +404,7 @@ header ul li:hover a {
     border: none;
 }
 
-#projects .imgBx1 .des .projbtn:hover{
+#projects .imgBx1 .des .projbtn:hover {
     box-shadow: 0 4px 8px 0 #47a2f77e, 0 6px 20px 0 #47a2f78f;
 }
 
@@ -417,12 +413,40 @@ header ul li:hover a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#projects .imgBx1 .imgBx:hover{
+#projects .imgBx1 .imgBx:hover {
     box-shadow: 0 4px 8px 0 #47a2f77e, 0 6px 20px 0 #47a2f78f;
 }
 
-#projects .imgBx1 .imgBx img{
+#projects .imgBx1 .imgBx img {
     width: 550px;
+}
+
+#designs {
+    position: relative;
+    background: rgb(97, 180, 255);
+    background: linear-gradient(90deg, rgba(97, 180, 255, 1) 0%, rgba(125, 107, 233, 1) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#designs .des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#designs marquee{
+    width: 90%;
+}
+
+#designs img{
+    width: 400px;
+   padding: 25px;
+}
+
+#designs img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -590,23 +614,22 @@ header ul li:hover a {
         font-size: 3em;
     }
 
-    /* #home ::before
-     {
-    width: 80vw;
-    height: 40vw;
-    border-top-right-radius:80vw ;
-    border-top-left-radius:80vw ;
-}  */
+    #home ::before {
+        width: 80vw;
+        height: 40vw;
+        border-top-right-radius: 80vw;
+        border-top-left-radius: 80vw;
+    }
 
-    /* #home .pic{
-   
-    height: 40vh;
-  
-} */
+    #home img {
 
-    #skills .content,
-    #projects .content,
-    #contact .content {
+        height: 40vh;
+
+    }
+
+    #skills,
+    #projects,
+    #contact  {
         grid-template-columns: repeat(1, 1fr);
     }
 
