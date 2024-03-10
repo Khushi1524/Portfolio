@@ -180,7 +180,6 @@ header ul li:hover a {
     padding: 40px;
     color: #fff;
     border-left: 1px solid;
-    width: 900px;
 }
 
 #about .all .info p {
@@ -322,7 +321,6 @@ header ul li:hover a {
 }
 
 #projects .imgBx1 .des {
-    width: 700px;
     padding: 30px;
 }
 
@@ -367,7 +365,7 @@ header ul li:hover a {
 }
 
 #projects .imgBx1 .imgBx img {
-    width: 550px;
+    width: 100%;
 }
 
 /* designs section */
@@ -560,6 +558,16 @@ header ul li:hover a {
         font-size: 2em;
     }
 
+    #about .abt h2{
+        font-size: 3em;
+    }
+
+
+    #about .info p{
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+
 
     #projects .content1 .imgBx1{
         display: flex;
@@ -577,6 +585,7 @@ header ul li:hover a {
 }
 
 @media (max-width: 700px) {
+   
     #home .content h2 {
         font-size: 3em;
     }
@@ -588,15 +597,52 @@ header ul li:hover a {
         border-top-left-radius: 80vw;
     }
 
+   
+
     #home img {
         
    
 
     }
 
+    #about {
+        padding: 15px;
+    }
+
+    #about .all .info{
+        padding: 0;
+    }
+
     #about .all{
         display: flex;
         flex-direction: column-reverse;
     }
+
+    #skills .all .skill{
+        min-width: calc(100% / 2);
+    }
+
+
+    #projects {
+        padding: 0;
+        padding-bottom: 50px;
+    }
+
+    #projects .imgBx1 {
+        padding: 0;
+    }
+
+    #projects .imgBx1 .des {
+        padding: 0;
+    } 
+
+    #projects .imgBx1 .imgBx{
+        padding: 10px;
+    }
+   
+    #contact {
+        padding: 30px;
+    }
+   
 
 }
