@@ -493,12 +493,6 @@ header ul li:hover a {
         padding: 10px 20px;
     }
 
-    #home img {
-       
-    
-        
-    }
-
     .secText h2 {
         font-size: 2em;
         text-align: center;
@@ -618,13 +612,6 @@ header ul li:hover a {
         border-top-left-radius: 80vw;
     }
 
-   
-
-    #home img {
-        
-   
-
-    }
 
     #about {
         padding: 15px;
@@ -637,6 +624,10 @@ header ul li:hover a {
     #about .all{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    #about .all .exp .yr1 {
+        width: 100%;
     }
 
     #skills .all .skill{
