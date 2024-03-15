@@ -197,6 +197,7 @@ header ul li:hover a {
     padding: 50px;
     color: #fff;
     letter-spacing: 0.5px;
+    line-height: 22px;
 }
 
 #about .all .info p {
@@ -629,6 +630,12 @@ header ul li:hover a {
     #about .all .exp .yr1 {
         width: 100%;
     }
+
+    #about .all .info {
+        padding: 0px;
+        font-size: 0.9em;
+    }
+    
 
     #skills .all .skill{
         min-width: calc(100% / 2);
