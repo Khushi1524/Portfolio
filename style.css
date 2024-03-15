@@ -169,8 +169,10 @@ header ul li:hover a {
     width: 430px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    font-weight: 100;
+    color: #9e9a9a;
     font-size: 1em;
+    letter-spacing: 0.5px;
     padding: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -179,6 +181,10 @@ header ul li:hover a {
     font-size: 2.2em;
     color: #47a3f7;
     padding-bottom: 15px;
+}
+
+#about .all .exp .yr1 h6{
+    font-size: 0.7em;
 }
 
 #about .all .exp .yr1 h3 span{
@@ -211,7 +217,7 @@ header ul li:hover a {
 }
 
 #about .social a img:hover {
-    box-shadow: 0 4px 8px 0 #47a2f77e, 0 6px 20px 0 #47a2f78f;
+    box-shadow: 0 4px 8px 0 rgba(244, 183, 70, 0.473), 0 6px 20px 0 rgba(234, 177, 71, 0.473);
 }
 
 
@@ -334,7 +340,7 @@ header ul li:hover a {
 }
 
 #projects .imgBx1 .des {
-    padding: 30px;
+    padding: 40px;
 }
 
 #projects .imgBx1 .des h3 {
@@ -345,8 +351,10 @@ header ul li:hover a {
 
 #projects .imgBx1 .des h4 {
     color: #aaa;
-    font-size: 1.1em;
+    font-size: 0.9em;
     padding: 10px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
 }
 
 #projects .imgBx1 .des .projbtn {
